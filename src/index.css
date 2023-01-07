@@ -9,6 +9,12 @@ body {
   height: 100vh;
 }
 
+a{
+  text-decoration: underline;
+  color: rgb(148, 148, 148);
+
+}
+
 .navbar{
   background-color: rgb(227, 95, 95);
   display: flex;
@@ -23,4 +29,45 @@ body {
   color: whitesmoke;
   font-size: 23px;
   font-family: 'Poppins', sans-serif;;
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  gap: 32px;
+  padding: 40px;
+}
+
+.card--location{
+  display: flex;
+  gap:8px;
+  
+  font-size: 20px;
+  
+}
+
+.card--location img{
+  height: 24px;
+  width: 24px;
+}
+
+.card--left img{
+  height: 200px;
+}
+
+.card--right{
+  max-width: 65%;
+}
+
+.card--title{
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+
+.card--text{
+  width: 50px;
 }
